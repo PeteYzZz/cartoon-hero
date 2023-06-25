@@ -1,7 +1,7 @@
 body{
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-family: 'Bangers', cursiveArial, Helvetica, sans-serif;
+    font-size: 20px;
     line-height: 25px;
     background-color: #f7e9b5;
 }
@@ -12,12 +12,12 @@ header{
     padding-bottom: 20px;
 }
 
-h1,h2{
-    font-family: 'Bangers', cursive;
-}
+
 
 header h1{
     color: white;
+    -webkit-text-stroke-color:black;
+    -webkit-text-stroke-width: 1px;
     font-size: 50px;
 
 }
@@ -28,26 +28,37 @@ header img{
     filter: drop-shadow(10px 10px 10px black);
 }
 
-main img{
+img.circle{
     width: 300px;
     border-radius: 170px;
     border: 10px solid #b57436;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
+img.animate{
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 main{
-    max-width: 800px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 20px;
 }
 
 h2{
-    font-size: 25px;
+    font-size: 30px;
     margin: 40px 0 10px;
 }
 
 a{
     color:black;
+    font-size: 20px;
 }
 a:hover{
     color: grey;
@@ -64,8 +75,21 @@ footer p{
     margin: 0;
 }
 
+footer a{
+    color: white;
+}
+
 p.caption{
     color: #999;
     font-style: italic;
     margin-top: 0;
+    text-align: center;
+    font-size: 15px;
+}
+
+li{
+    font-size: 22px;
+color: white;
+-webkit-text-stroke-color: black;
+-webkit-text-stroke-width:0.8px ;
 }
